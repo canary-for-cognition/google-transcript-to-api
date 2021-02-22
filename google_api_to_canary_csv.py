@@ -8,7 +8,7 @@ CSV_DIRECTORY = 'csv_outputs/'
 def main():
     """
     to run this file:
-    python bug_fix.py {GOOGLE_TRANSCRIPT_DIRECTORY}
+    python google_api_to_canary_csv.py {GOOGLE_TRANSCRIPT_DIRECTORY}
     """
     input_files = sys.argv[1]
     for filename in os.listdir(input_files):
